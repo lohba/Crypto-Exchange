@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Td = styled.td`
     border: 1px solid #cccccc; 
-    width:25vh;
+    width:27vh;
 `;
 
 export default class Coin extends Component {
