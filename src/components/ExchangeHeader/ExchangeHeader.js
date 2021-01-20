@@ -22,13 +22,14 @@ const H1 = styled.h1 `
     line-height: 8rem;
     fold-weigt: bold;
     min-width: 300px;
+    margin-left: 60px;
 `;
 
 export default class HeaderExchange extends Component {
     render() {
         return (
             <Header>
-            <Img src={logo} alt="React logo" />
+            {/* <Img src={logo} alt="React logo" /> */}
               <H1 className="App-title">
                 Coin Exchange
               </H1>
